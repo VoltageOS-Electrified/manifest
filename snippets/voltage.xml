@@ -9,6 +9,10 @@
            revision="qpr2"
            fetch="https://github.com/VoltageOS-staging" />
 
+  <remote  name="voltage-electrified"
+           revision="13"
+           fetch="https://github.com/VoltageOS-Electrified" />
+
   <remote  name="VoltageOS-Devices"
            revision="13"
            fetch="https://github.com/VoltageOS-Devices" />
@@ -45,7 +49,7 @@
 
     <!-- Framework -->
     <project path="frameworks/av" name="frameworks_av" remote="voltage" />
-    <project path="frameworks/base" name="frameworks_base" remote="voltage" />
+    <project path="frameworks/base" name="frameworks_base" remote="voltage-electrified" />
     <project path="frameworks/native" name="frameworks_native" remote="voltage" />
     <project path="frameworks/rs" name="frameworks_rs" remote="voltage" />
     <project path="frameworks/libs/net" name="frameworks_libs_net" remote="voltage" />
@@ -71,11 +75,11 @@
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
-    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-electrified" />
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
     <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="voltage" />
-    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage" />
+    <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-electrified" />
     <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="voltage" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="voltage" />
     <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="voltage" />
@@ -138,7 +142,7 @@
     <project path="system/logging" name="system_logging" remote="voltage" />
 
     <!-- Vendor -->
-    <project path="vendor/voltage" name="vendor_voltage" remote="voltage" />
+    <project path="vendor/voltage" name="vendor_voltage" remote="voltage-electrified" />
     <project path="vendor/ota" name="android_vendor_voltageota" remote="voltage" />
     <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="voltage" />
     <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="voltage" />
