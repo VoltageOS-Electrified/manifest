@@ -73,7 +73,7 @@
     <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="13-sm8150" remote="voltage" />
 
     <!-- Packages -->
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-electrified" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="voltage" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-electrified" />
     <project path="packages/apps/Covers" name="packages_apps_Covers" remote="voltage" />
