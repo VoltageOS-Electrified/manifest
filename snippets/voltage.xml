@@ -48,7 +48,7 @@
     <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="voltage" />
 
     <!-- Framework -->
-    <project path="frameworks/av" name="frameworks_av" remote="voltage" />
+    <project path="frameworks/av" name="frameworks_av" remote="voltage-electrified" />
     <project path="frameworks/base" name="frameworks_base" remote="voltage-electrified" />
     <project path="frameworks/native" name="frameworks_native" remote="voltage-electrified" />
     <project path="frameworks/rs" name="frameworks_rs" remote="voltage" />
